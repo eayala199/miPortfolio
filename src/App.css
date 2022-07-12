@@ -1,0 +1,16 @@
+.bodyContainer {
+  height: 100vh;
+}
+
+.navBar {
+  height: 10%;
+}
+
+.routesContainer {
+  min-height: 70%;
+  height: fit-content;
+}
+
+.footerContainer {
+  height: 20%;
+}

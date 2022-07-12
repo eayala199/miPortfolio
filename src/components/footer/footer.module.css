@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    color: black;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 40px;
+    margin-top: 5%;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.sponsors {
+
+    margin-right: 40px;
+    margin-top: 5%;
+
+
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+ul li:hover{
+    color: orangered;
+
+}
+
+.lista2 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lista2 p:hover{
+    color: orangered;
+}
+
+
+hr {
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+

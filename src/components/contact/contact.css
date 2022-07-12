@@ -1,0 +1,99 @@
+.contenedorContact {
+  display: flex;
+  min-height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(11, 11, 11, 0.8);
+  color: white;
+  box-shadow: inset -9px 31px 26px -30px #a2ff3d, inset -9px -31px 26px -30px #a2ff3d;
+}
+
+.contact {
+  margin-top: 5%;
+  width: 50%;
+}
+
+.formulario {
+  width: 85%;
+  margin-left: auto;
+}
+
+.inputContact {
+  color: white;
+  width: 97.5%;
+  height: 25px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 4px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.inputContact:focus {
+  outline: none;
+}
+
+.textareaContact {
+  width: 94%;
+  padding: 2%;
+  border-radius: 31px;
+  background-color: rgba(11, 11, 11, 0.78);
+  box-shadow: 0px 0px 12px 1px #a2ff3d;
+  margin-top: 25px;
+  color: white;
+  height: 140px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.labelContact {
+  margin-left: 5%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.h1Contact {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+
+  width: fit-content;
+  margin-left: 8%;
+}
+
+.btnContact {
+  width: 198px;
+  height: 52px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  text-align: center;
+  float: right;
+  background-color: #619c22;
+  border-radius: 13px;
+  border: none;
+  color: white;
+  cursor: pointer;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}

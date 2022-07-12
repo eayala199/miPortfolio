@@ -1,0 +1,31 @@
+.landcont {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+
+    box-shadow:
+        inset -9px 31px 26px -30px gray,
+        inset -9px -31px 26px -30px gray;
+}
+
+
+
+
+.btnLand {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    background-color:#000000C2;
+    box-shadow:  3px 2px 28px 0px gray;
+    color: white;
+    border-radius: 31px;
+    border: solid orangered;
+    font-size: 55px;
+    align-items: center;
+    justify-content: center;
+    padding: 23px;
+
+}
+

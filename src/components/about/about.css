@@ -1,0 +1,40 @@
+.container-princ1{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset -9px 31px 26px -30px gray,
+                inset -9px -31px 26px -30px gray;
+}
+
+.container-secu1{
+    border: 2px solid blue;
+    height: 80%;
+    width: 90%;
+    background-color: #000000C2;
+    box-shadow:  3px 2px 28px 0px rgba(162,255,61,0.40);
+    border-radius: 31px;
+}
+
+.container-secu1 h1{
+    font-size: 54px;
+    font-weight: 700;
+    color: white;
+    margin-left: 71px;
+    margin-bottom: 0;
+    
+}
+
+.container-secu2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-secu2 p {
+    width: 56vw;
+    color: white;
+}
+
+.foto-about{
+    height: 35vh;
+}
