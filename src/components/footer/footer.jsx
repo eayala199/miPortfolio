@@ -9,13 +9,13 @@ export default function Footer() {
   const language = useSelector((state) => state.language);
   return (
     <footer className={f.container}>
-      <div className={f.logo}></div>
+      <div></div>
       <div className={f.lista}>
         <div >
           <ul>
             <Link to="/about"style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Sobre mi' : 'About me'}</li></Link>
             <Link to="/sustentability" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Tecnologias' : 'Technologies'}</li></Link>
-            <Link to="/sustentability" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Estudios' : 'Studies'}</li></Link>
+            <Link to="/studies" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Estudios' : 'Studies'}</li></Link>
             <Link to="/contact" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Contacto' : 'Contact'}</li></Link>
           </ul>
         </div>
@@ -33,7 +33,7 @@ export default function Footer() {
 
 
       </div>
-      <div className={f.sponsors}></div>
+      <div></div>
 
 
 

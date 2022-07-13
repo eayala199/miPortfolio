@@ -1,0 +1,42 @@
+.container-1{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset -9px 31px 26px -30px gray,
+                inset -9px -31px 26px -30px gray;
+}
+
+.container-2{
+    height: 80%;
+    width: 90%;
+    background-color: whitesmoke;
+}
+
+.container-2 h1{
+    font-size: 54px;
+    font-weight: 700;
+    color: black;
+    margin-left: 71px;
+    margin-bottom: 0;
+    
+}
+
+.container-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-3 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-3 ul li {
+    color: black;
+    list-style: circle;
+    font-size: 20px;
+}
+

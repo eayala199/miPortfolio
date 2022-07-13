@@ -4,8 +4,9 @@ import NavBar from './components/NavBar/NavBar';
 import Contact from './components/contact/contact';
 import Home from './components/home/home';
 import Footer from './components/footer/footer';
-import About from './components/about/about'
-import Sustentability from './components/sustentability/sustentability';
+import About from './components/about/about';
+import Technologies from './components/technologies/technologies';
+import Studies from './components/studies/studies';
 
 function App() {
   return (
@@ -26,7 +27,15 @@ function App() {
             path="/sustentability"
             element={
               
-                <Sustentability/> 
+                <Technologies/> 
+              
+            }
+          />
+          <Route
+            path="/studies"
+            element={
+              
+                <Studies/> 
               
             }
           />

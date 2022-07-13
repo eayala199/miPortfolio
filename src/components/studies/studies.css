@@ -1,4 +1,4 @@
-.container-princ1{
+.container-num1{
     height: 70vh;
     display: flex;
     align-items: center;
@@ -7,7 +7,7 @@
                 inset -9px -31px 26px -30px gray;
 }
 
-.container-secu1{
+.container-secuNum1{
     border: 2px solid orangered;
     height: 80%;
     width: 90%;
@@ -16,7 +16,7 @@
     border-radius: 31px;
 }
 
-.container-secu1 h1{
+.container-secuNum1 h1{
     font-size: 54px;
     font-weight: 700;
     color: white;
@@ -25,18 +25,30 @@
     
 }
 
-.container-secu2{
+.container-secuNum2{
     display: flex;
     justify-content: space-around;
 }
 
-.container-secu2 p {
+.container-secuNum2 p {
     width: 56vw;
     color: white;
-    font-size: 1.1rem;
 }
 
-.foto-about{
+.container-secuNum2 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0;
+}
+
+.container-secuNum2 ul li {
+    color: white;
+    list-style: circle;
+    font-size: 20px;
+}
+
+.foto-studies{
     height: 35vh;
     border: 2px solid orangered;
     border-radius: 50%;

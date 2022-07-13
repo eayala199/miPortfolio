@@ -21,7 +21,7 @@ export default function NavBar() {
                         <Link to="/"><li>{language === 'spanish' ? 'Inicio' : 'Home'}</li></Link>
                         <Link to="/about"><li>{language === 'spanish' ? 'Sobre mi' : 'About me'}</li></Link>
                         <Link to="/sustentability"><li>{language === 'spanish' ? 'Tecnologias' : 'Technologies'}</li></Link>
-                        <Link to="/sustentability"><li>{language === 'spanish' ? 'Estudios' : 'Studies'}</li></Link>
+                        <Link to="/studies"><li>{language === 'spanish' ? 'Estudios' : 'Studies'}</li></Link>
                         <Link to="/contact"><li>{language === 'spanish' ? 'Contacto' : 'Contact'}</li></Link>
                     </ul>
                 </nav>
