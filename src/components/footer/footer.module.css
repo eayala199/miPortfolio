@@ -55,10 +55,25 @@ ul li:hover{
 
 
 hr {
-    width: 700px;
+    width: 70vw;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
 
+}
+
+.listaFooterMobile {
+    display: none;
+}
+
+@media (max-width: 800px){
+.listaFooter {
+    display: none;
+}
+
+.listaFooterMobile{
+    display: inline-flex;
+    
+}
 }
 

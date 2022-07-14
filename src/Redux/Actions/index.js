@@ -1,4 +1,4 @@
-import axios from 'axios';
+
 import { LANGUAGE_CHANGE, POST_CONTACT } from './types';
 
 export function changeLanguage() {

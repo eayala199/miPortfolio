@@ -41,3 +41,29 @@
     border: 2px solid orangered;
     border-radius: 50%;
 }
+
+@media (max-width: 800px){
+    .foto-about{
+        display: none;
+    }
+    .container-secu2 p {
+        width: 76vw;
+        color: white;
+        font-size: 0.85rem; 
+    }
+    .container-secu1 h1{
+        margin-left: 31px;
+    }
+}
+
+@media (max-width: 400px){
+    .container-secu2 p {
+        width: 76vw;
+        color: white;
+        font-size: 0.65rem; 
+    }
+    .container-secu1 h1{
+        margin-left: 31px;
+    }
+}
+

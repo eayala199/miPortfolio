@@ -12,14 +12,19 @@ export default function Footer() {
       <div></div>
       <div className={f.lista}>
         <div >
-          <ul>
-            <Link to="/about"style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Sobre mi' : 'About me'}</li></Link>
-            <Link to="/sustentability" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Tecnologias' : 'Technologies'}</li></Link>
+          <ul className={f.listaFooter}>
+            <Link to="/about"style={{ color: "black", textDecoration: "none" }} ><li className='sobremiFooter'>{language === 'spanish' ? 'Sobre mi' : 'About me'}</li></Link>
+            <Link to="/technologies" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Tecnologias' : 'Technologies'}</li></Link>
+            <Link to="/studies" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Estudios' : 'Studies'}</li></Link>
+            <Link to="/contact" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Contacto' : 'Contact'}</li></Link>
+          </ul>
+          <ul className={f.listaFooterMobile}>
+            <Link to="/technologies" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Tecnologias' : 'Technologies'}</li></Link>
             <Link to="/studies" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Estudios' : 'Studies'}</li></Link>
             <Link to="/contact" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Contacto' : 'Contact'}</li></Link>
           </ul>
         </div>
-        <hr />
+        <hr className="lineaFooter" />
         <div className={f.lista2}>
           <a href="https://github.com/eayala199" style={{ color: "black", textDecoration: "none" }}><p><FaGithub style={{ fontSize: '25px' }} /></p></a>
           <a href="https://www.instagram.com/negroayala22/" style={{ color: "black", textDecoration: "none" }}><p><FaInstagram style={{ fontSize: '25px' }} /></p></a>

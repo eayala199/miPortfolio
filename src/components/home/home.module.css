@@ -29,3 +29,9 @@
 
 }
 
+@media (max-width: 400px){
+    .btnLand {
+        font-size: 30px;
+
+    }  
+}

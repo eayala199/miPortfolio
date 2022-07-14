@@ -53,3 +53,20 @@
     border: 2px solid orangered;
     border-radius: 50%;
 }
+
+@media (max-width: 800px){
+    .foto-studies{
+        display: none;
+    }
+    .container-secuNum2 ul li {
+        color: white;
+        list-style: circle;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 400px){
+    .container-secuNum2 ul li {
+        font-size: 12px;
+    }
+}

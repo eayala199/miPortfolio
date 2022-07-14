@@ -13,6 +13,14 @@
     align-items: center;
 }
 
+
+
+.lista-navbarMob{
+    display: none;
+    list-style: none;
+    gap: 35px;
+}
+
 .lista-navbar{
     list-style: none;
     display: flex;
@@ -34,3 +42,21 @@
     color: black;
 }
 
+@media (max-width: 800px){
+.lista-navbar{
+    display: none;
+}
+/* .container-secundario1 p{
+    display: block;
+    margin-left: 10px;
+}
+.container-secundario1 p:hover{
+color: orangered;
+} */
+
+.lista-navbarMob{
+    display: flex;
+    justify-content: space-around;
+}
+
+}

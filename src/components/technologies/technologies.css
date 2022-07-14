@@ -40,3 +40,14 @@
     font-size: 20px;
 }
 
+@media (max-width: 800px){
+    .container-2 h1{
+        margin-left: 31px;;
+    }
+}
+
+@media (max-width: 400px){
+    .container-3 ul li{
+        font-size: 14px;
+    }
+}
