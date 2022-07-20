@@ -24,11 +24,13 @@ export default function NavBar() {
                         <Link to="/about"><li>{language === 'spanish' ? 'Sobre mi' : 'About me'}</li></Link>
                         <Link to="/technologies"><li>{language === 'spanish' ? 'Tecnologias' : 'Technologies'}</li></Link>
                         <Link to="/studies"><li>{language === 'spanish' ? 'Estudios' : 'Studies'}</li></Link>
+                        <Link to="/projects"><li>{language === 'spanish' ? 'Proyectos' : 'Projects'}</li></Link>
                         <Link to="/contact"><li>{language === 'spanish' ? 'Contacto' : 'Contact'}</li></Link>
                     </ul>
                     <ul className='lista-navbarMob'>
                         <Link to="/" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Inicio' : 'Home'}</li></Link>
                         <Link to="/about" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Sobre mi' : 'About me'}</li></Link>
+                        <Link to="/projects" style={{ color: "black", textDecoration: "none" }}><li>{language === 'spanish' ? 'Proyectos' : 'Projects'}</li></Link>
                     </ul>
                 </nav>
             </div>

@@ -7,6 +7,7 @@ import Footer from './components/footer/footer';
 import About from './components/about/about';
 import Technologies from './components/technologies/technologies';
 import Studies from './components/studies/studies';
+import Projects from './components/projects/projects';
 
 function App() {
   return (
@@ -28,6 +29,14 @@ function App() {
             element={
               
                 <Technologies/> 
+              
+            }
+          />
+          <Route
+            path="/projects"
+            element={
+              
+                <Projects/> 
               
             }
           />
